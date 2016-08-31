@@ -1,6 +1,6 @@
 {
   "name": "@aptoma/lambda-error-formatter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Helper for formatting errors for return in AWS Lambda",
   "main": "index.js",
   "repository": {
