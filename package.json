@@ -1,6 +1,6 @@
 {
   "name": "@aptoma/lambda-error-formatter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Helper for formatting errors for return in AWS Lambda",
   "main": "index.js",
   "repository": {
@@ -16,7 +16,10 @@
     "test": "istanbul cover -i 'index.js' _mocha -- -u exports -R spec --timeout 500 'index.test.js'",
     "watch": "mocha --watch 'index.test.js' --timeout 500 -G"
   },
-  "keywords": ["aws-lambda", "errors"],
+  "keywords": [
+    "aws-lambda",
+    "errors"
+  ],
   "author": "Gunnar Lium <gunnar@aptoma.com>",
   "contributors": [
     {
