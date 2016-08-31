@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Helper for formatting errors for return in AWS Lambda",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aptoma/lambda-error-logger.git"
+  },
   "scripts": {
     "ci": "npm run lint && npm test",
     "lint": "eslint index.js",
